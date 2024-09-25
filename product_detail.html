@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--==========Title==========-->
+    <title>Product Detail</title>
+    <!--==========CSS==========-->
+    <link rel="stylesheet" href="../style.css">
+    <!--Font-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!--Font Roboto-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--Navbar-->
+    <nav class="navigation">
+        <a href="../index.html" class="logo">
+            <img src="../image/logo.png">
+            SkinSense
+        </a>
+
+        <!--Search bar-->
+        <form class="search-box">
+            <input type="text" placeholder="Search product" required>
+            <button>
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        </form>
+        <!--button-->
+        <div class="nav-btns">
+
+            <!--Heart-->
+            <a href="#" class="nav-heart">
+                <i class="fa-solid fa-heart"></i>
+            </a>
+            
+            <!--User-->
+            <a href="#" class="nav-user">
+                <i class="fa-solid fa-user"></i>
+            </a>
+
+        </div>
+    </nav> <!--nav_end-->
+
+
+    <!--Product Detail-->
+    <section id="product_detail">
+
+        <!--img-->
+        <div class="d-product-img">
+            <img id="product-image" src="">
+        </div>
+
+        <!--text-->
+        <div class="d-product-text">
+            <!--title-->
+            <strong id="product-title"></strong>
+
+            <!--rating-->
+            <span class="rating" id="product-rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <span></span>
+            </span>
+
+            <!--detail-->
+            <p id="product-description"></p>
+
+            <!--price-->
+            <span class="price" id="product-price"></span>
+
+            <!--button add to fav-->
+            <a href="#" class="add-love-btn">Add to Favorite</a>
+
+        </div>
+
+    </section>
+    
+
+    <!--Footer-->
+    <footer>
+        <div class="footer-container">
+            <!--Container-->
+            <div class="footer-company-box">
+                <!--logo-->
+                <a href="#" class="footer-logo">SkinSense</a>
+                <!--details-->
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor</p>
+                <!--sosmed-->
+                <div class="footer-sosmed">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+            </div>
+
+            <!--link box-->
+            <div class="footer-link-box">
+                <strong>Main Link</strong>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Disclaimer</a></li>
+                    <li><a href="#">Terms and Conditions</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-link-box">
+                <strong>Main Link</strong>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Disclaimer</a></li>
+                    <li><a href="#">Terms and Conditions</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-link-box">
+                <strong>Main Link</strong>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Disclaimer</a></li>
+                    <li><a href="#">Terms and Conditions</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <!--bottom section-->
+        <div class="footer-bottom">
+            <span class="footer-owner">Made By Group 6 - Software Engineering LH01</span>
+            <span class="copyright">© Copyright 2024 - BINUS University</span>
+        </div>
+
+    </footer>
+
+
+    <script src="js/detail.js"></script>
+
+    <!--JQuery-->
+    <script src="js/jquery-3.7.1.js"></script>
+
+    <!--Script-->
+    <script>
+        //filter_link_active//
+        var selector = '.new-p-heading li';
+
+        $(selector).on('click', function(){
+            $(selector).removeClass('active')
+            $(this).addClass('active')
+        });
+
+        /*box-filter*/
+        $(document).ready(function(){
+            $('.new-p-heading li').click(function(){
+                const value = $(this).attr('data-filter')
+                if(value == 'all'){
+                    $('.all-product-box').show('1000');
+                }else{
+                    $('.all-product-box').not('.' + value).hide('1000');
+                    $('.all-product-box').filter('.' + value).show('1000');
+                }
+            })
+        });
+
+    </script>
+</body>
+</html>

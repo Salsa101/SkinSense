@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--==========Title==========-->
+    <title>SkinSense</title>
+    <!--==========CSS==========-->
+    <link rel="stylesheet" href="style.css">
+    <!--Font-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!--Font Roboto-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--Navbar-->
+    <nav class="navigation">
+        <a href="#" class="logo">
+            <img src="image/logo.png">
+            SkinSense
+        </a>
+
+        <!--Search bar-->
+        <form class="search-box">
+            <input type="text" placeholder="Search product" required>
+            <button>
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        </form>
+        <!--button-->
+        <div class="nav-btns">
+
+            <!--Heart-->
+            <a href="#" class="nav-heart">
+                <i class="fa-solid fa-heart"></i>
+            </a>
+            
+            <!--User-->
+            <a href="#" class="nav-user">
+                <i class="fa-solid fa-user"></i>
+            </a>
+
+        </div>
+    </nav> <!--nav_end-->
+
+    <!--Main-->
+    <section id="main">
+
+        <!--Text-->
+        <div class="main-text">
+            <h1>Precision Skin Analysis for Radiant Results</h1>
+            <p>Our skin analyzer provides deep insights into your skin's health, helping you achieve a luminous, youthful complexion.</p>
+            <button id="scan-now">Scan Now</button>
+            <!--<a href="#">Scan Now</a>-->
+        </div>
+
+        <!--image-->
+        <div class="main-img">
+            <img src="image/hero_img (1).png" alt="">
+        </div>
+
+    </section><!--main_end-->
+
+    <!--Scan Image-->
+    <section id="scan_image">
+
+        <!--Image-->
+        <div class="scan-image">
+            <img src="image/face scan.png">
+        </div>
+
+        <!--Text-->
+        <div class="scan-text">
+            <h1>Get Ready to Start Skin Analysis</h1>
+            <p>Take off your glasses and ensure there's no bangs on your forehead</p>
+            <p>Make sure that you're in well lighted environtment</p>
+            <p>Testing with no-makeup will get more accurate result</p>
+            <p>Looking straight to the camera</p>
+
+            <div class="scan-button">
+                <input type="file" id="image-input" accept="image/*" required>
+                <button type="submit">Upload</button>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--all_product-->
+    <section id="all_product">
+
+        <!--heading-->
+        <div class="new-p-heading">
+            <h3>Popular Products</h3>
+            <!--filter-->
+            <ul>
+                <li class="active" data-filter="all">All</li>
+                <li data-filter="sunscreen">Sunscreen</li>
+                <li data-filter="serum">Serum</li>
+                <li data-filter="moisturizer">Moisturizer</li>
+            </ul>
+        </div>
+
+        <!--container-->
+        <div class="all-product-container">
+            
+            <!--box1-->
+            <div class="all-product-box moisturizer" id="product1">
+                <!--img-->
+                <div class="all-product-img">
+                    <img src="image/m1.jpg">
+                    <span>Moisturizer</span>
+                </div>
+
+                <!--text-->
+                <div class="all-product-text-section">
+                    <h4 class="all-product-title">Azarine Intense Luminous Barrier Moisturizer</h4>
+                    <span>Rp75.000</span>
+                    <h1 href="#" class="all-love">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </h1>
+                </div>
+            </div>
+
+             <!--box2-->
+             <div class="all-product-box sunscreen" id="product2">
+                <!--img-->
+                <div class="all-product-img">
+                    <img src="image/ss1.png">
+                    <span>Sunscreen</span>
+                </div>
+
+                <!--text-->
+                <div class="all-product-text-section">
+                    <h4 class="all-product-title">Azarine Sunscreen Gel</h4>
+                    <span>Rp57.000</span>
+                    <h1 href="#" class="all-love">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </h1>
+                </div>
+            </div>
+
+             <!--box3-->
+             <div class="all-product-box serum" id="product3">
+                <!--img-->
+                <div class="all-product-img">
+                    <img src="image/s1.jpg">
+                    <span>Serum</span>
+                </div>
+
+                <!--text-->
+                <div class="all-product-text-section">
+                    <h4 class="all-product-title">Pearls of Luminaire Brightening Serum</h4>
+                    <span>Rp960.000</span>
+                    <h1 href="#" class="all-love">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </h1>
+                </div>
+            </div>
+
+             <!--box4-->
+             <div class="all-product-box moisturizer" id="product4">
+                <!--img-->
+                <div class="all-product-img">
+                    <img src="image/m2.png">
+                    <span>Moisturizer</span>
+                </div>
+                <!--text-->
+                <div class="all-product-text-section">
+                    <h4 class="all-product-title">True to Skin Azulene Oat Barrier Cream</h4>
+                    <span>Rp96.000</span>
+                    <h1 href="#" class="all-love">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </h1>
+                </div>
+            </div>
+
+             <!--box5-->
+             <div class="all-product-box sunscreen" id="product5">
+                <!--img-->
+                <div class="all-product-img">
+                    <img src="image/ss2.jpg">
+                    <span>Sunscreen</span>
+                </div>
+                <!--text-->
+                <div class="all-product-text-section">
+                    <h4 class="all-product-title">Banana Boat Sport SPF 50</h4>
+                    <span>Rp174.000</span>
+                    <h1 href="#" class="all-love">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </h1>
+                </div>
+            </div>
+
+             <!--box6-->
+             <div class="all-product-box sunscreen" id="product6">
+                <!--img-->
+                <div class="all-product-img">
+                    <img src="image/ss3.png">
+                    <span>Sunscreen</span>
+                </div>
+                <!--text-->
+                <div class="all-product-text-section">
+                    <h4 class="all-product-title">Biore UV Aqua Rich Watery Essence SPF 50</h4>
+                    <span>Rp103.000</span>
+                    <h1 href="#" class="all-love">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </h1>
+                </div>
+            </div>
+
+             <!--box7-->
+             <div class="all-product-box serum" id="product7">
+                <!--img-->
+                <div class="all-product-img">
+                    <img src="image/s2.jpg">
+                    <span>Serum</span>
+                </div>
+                <!--text-->
+                <div class="all-product-text-section">
+                    <h4 class="all-product-title">Clear White Supreme Overnight Radiances Capsules</h4>
+                    <span>Rp705.000</span>
+                    <h1 href="#" class="all-love">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </h1>
+                </div>
+            </div>
+
+             <!--box8-->
+             <div class="all-product-box moisturizer" id="product8">
+                <!--img-->
+                <div class="all-product-img">
+                    <img src="image/m3.jpg">
+                    <span>Moisturizer</span>
+                </div>
+                <!--text-->
+                <div class="all-product-text-section">
+                    <h4 class="all-product-title">Y.O.U Hydra Rescue B5 Gel Moisturizer</h4>
+                    <span>Rp139.000</span>
+                    <h1 href="#" class="all-love">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </h1>
+                </div>
+            </div>
+
+             <!--box9-->
+             <div class="all-product-box sunscreen" id="product9">
+                <!--img-->
+                <div class="all-product-img">
+                    <img src="image/ss4.jpg">
+                    <span>Sunscreen</span>
+                </div>
+                <!--text-->
+                <div class="all-product-text-section">
+                    <h4 class="all-product-title">Cetaphil UVA/UVB Defence SPF 50+</h4>
+                    <span>Rp320.000</span>
+                    <h1 href="#" class="all-love">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </h1>
+                </div>
+            </div>
+
+             <!--box10-->
+             <div class="all-product-box moisturizer" id="product10">
+                <!--img-->
+                <div class="all-product-img">
+                    <img src="image/m4.jpg">
+                    <span>Moisturizer</span>
+                </div>
+                <!--text-->
+                <div class="all-product-text-section">
+                    <h4 class="all-product-title">Mineral Botanica First Defense Skin Moisture Barrier Water Cream</h4>
+                    <span>Rp60.000</span>
+                    <h1 href="#" class="all-love">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </h1>
+                </div>
+            </div>
+
+            <!--box11-->
+            <div class="all-product-box serum" id="product11">
+                <!--img-->
+                <div class="all-product-img">
+                    <img src="image/s3.jpg">
+                    <span>Serum</span>
+                </div>
+                <!--text-->
+                <div class="all-product-text-section">
+                    <h4 class="all-product-title">Extraordinaire Supreme Precious Collagen</h4>
+                    <span>Rp660.000</span>
+                    <h1 href="#" class="all-love">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </h1>
+                </div>
+            </div>
+
+            <!--box12-->
+            <div class="all-product-box serum" id="product12">
+                <!--img-->
+                <div class="all-product-img">
+                    <img src="image/s4.jpg">
+                    <span>Serum</span>
+                </div>
+                <!--text-->
+                <div class="all-product-text-section">
+                    <h4 class="all-product-title">Scarlet Glowtening Serum 15ml</h4>
+                    <span>Rp67.000</span>
+                    <h1 href="#" class="all-love">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </h1>
+                </div>
+            </div>
+
+            <!--box13-->
+            <div class="all-product-box sunscreen" id="product13">
+                <!--img-->
+                <div class="all-product-img">
+                    <img src="image/ss5.jpg">
+                    <span>Sunscreen</span>
+                </div>
+                <!--text-->
+                <div class="all-product-text-section">
+                    <h4 class="all-product-title">Vaseline Daily Sun Cream SPF 50+ SPF/PA++++</h4>
+                    <span>Rp124.000</span>
+                    <h1 href="#" class="all-love">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </h1>
+                </div>
+            </div>
+
+            <!--box14-->
+            <div class="all-product-box moisturizer" id="product14">
+                <!--img-->
+                <div class="all-product-img">
+                    <img src="image/m5.png">
+                    <span>Moisturizer</span>
+                </div>
+                <!--text-->
+                <div class="all-product-text-section">
+                    <h4 class="all-product-title">Implora 8+ Ceramide Skin Barrier Moisturizing Gel</h4>
+                    <span>Rp66.000</span>
+                    <h1 href="#" class="all-love">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </h1>
+                </div>
+            </div>
+
+            <!--box15-->
+            <div class="all-product-box serum" id="product15">
+                <!--img-->
+                <div class="all-product-img">
+                    <img src="image/s5.jpg">
+                    <span>Serum</span>
+                </div>
+                <!--text-->
+                <div class="all-product-text-section">
+                    <h4 class="all-product-title">Illuminare Brightening Serum 30g</h4>
+                    <span>Rp112.000</span>
+                    <h1 href="#" class="all-love">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </h1>
+                </div>
+            </div>
+        </div>
+    
+    </section>
+
+    <!--Banner Grid 1/3-->
+    <section class="banner-grid-half">
+
+        <!--box1-->
+        <div class="banner-grid-box banner-grid-box1">
+            <!--img-->
+            <img src="image/b3.png">
+            <!--Text-->
+            <div class="banner-grid-text">
+                <strong>Get to Know Your Skin Better</strong>
+                <span>Understand Your Skin Like Never Before</span>
+            </div>
+        </div>
+
+        <!--box2-->
+        <div class="banner-grid-box banner-grid-box2">
+            <!--img-->
+            <img src="image/b1.png">
+            <!--Text-->
+            <div class="banner-grid-text">
+                <strong>Reveal Your True Glow</strong>
+                <span>Reveal Your Skin's True Potential</span>
+            </div>
+        </div>
+
+        <!--box3-->
+        <div class="banner-grid-box banner-grid-box3">
+            <!--img-->
+            <img src="image/b2.png">
+            <!--Text-->
+            <div class="banner-grid-text">
+                <strong>Illuminate Your Natural Beauty</strong>
+                <span>Deep Dive into Your Skin's Needs</span>
+            </div>
+        </div>
+        
+    </section><!--grid_end-->
+
+    <!--Footer-->
+    <footer>
+        <div class="footer-container">
+            <!--Container-->
+            <div class="footer-company-box">
+                <!--logo-->
+                <a href="#" class="footer-logo">SkinSense</a>
+                <!--details-->
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor</p>
+                <!--sosmed-->
+                <div class="footer-sosmed">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+            </div>
+
+            <!--link box-->
+            <div class="footer-link-box">
+                <strong>Main Link</strong>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Disclaimer</a></li>
+                    <li><a href="#">Terms and Conditions</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-link-box">
+                <strong>Secondary Link</strong>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Disclaimer</a></li>
+                    <li><a href="#">Terms and Conditions</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-link-box">
+                <strong>Other Link</strong>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Disclaimer</a></li>
+                    <li><a href="#">Terms and Conditions</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <!--bottom section-->
+        <div class="footer-bottom">
+            <span class="footer-owner">Made By Afrida Salsabila Putri</span>
+            <span class="copyright">© Copyright 2024 - BINUS University</span>
+        </div>
+
+    </footer>
+
+
+    <script src="./script.js"></script>
+
+    <!--JQuery-->
+    <script src="js/jquery-3.7.1.js"></script>
+
+    <!--Script-->
+    <script>
+        //filter_link_active//
+        var selector = '.new-p-heading li';
+
+        $(selector).on('click', function(){
+            $(selector).removeClass('active')
+            $(this).addClass('active')
+        });
+
+        /*box-filter*/
+        $(document).ready(function(){
+            $('.new-p-heading li').click(function(){
+                const value = $(this).attr('data-filter')
+                if(value == 'all'){
+                    $('.all-product-box').show('1000');
+                }else{
+                    $('.all-product-box').not('.' + value).hide('1000');
+                    $('.all-product-box').filter('.' + value).show('1000');
+                }
+            })
+        });
+
+    </script>
+</body>
+</html>

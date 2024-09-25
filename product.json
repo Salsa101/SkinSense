@@ -1,0 +1,107 @@
+[
+    {
+        "id": "1",
+        "name": "Azarine Intense Luminous Barrier Moisturizer",
+        "price": "Rp75.000",
+        "image": "./image/m1.jpg",
+        "description": "Not only does it moisturize the skin, but it also helps even out skin tone and makes the skin more radiant! Thanks to the Jeju Rice Water content in it, plus Bio-Highlightern Peptide which can maintain skin health and make the skin more radiant and healthy. This local moisturizer can be used starting at the age of 13, you know!"
+    },
+    {
+        "id":"2",
+        "name": "Azarine Sunscreen Gel",
+        "price": "Rp57.000",
+        "image": "./image/ss1.png",
+        "description": "The benefits of Azarine Sunscreen are that it can moisturize or hydrate the skin, soothe the skin, and protect the skin from the harmful effects of sunlight."
+    },
+    {
+        "id":"3",
+        "name": "Pearls of Luminaire Brightening Serum",
+        "price": "Rp960.000",
+        "image": "./image/s1.jpg",
+        "description": "Helps achieve bright and healthy glowing facial skin. Contains luxurious active ingredients; Pure Caviar Extract to slow down the aging process by smoothing the skin and reducing the formation of fine lines and wrinkles, PolyMarine Saccharides derived from red and brown algae, moisturizes and protects the skin. Anti-Pollutant Matrix Encourages skin regeneration and minimizes signs of aging so that the skin looks radiant again."
+    },
+    {
+        "id":"4",
+        "name": "True to Skin Azulene Oat Barrier Cream",
+        "price": "Rp96.000",
+        "image": "./image/m2.png",
+        "description": "If your skin is extra dry, this product is reliable. Contains oat extract, natural blue azulene, and Ceramide, a great combo for moisturizing, soothing irritated skin, and calming the skin. The texture is creamy and the finish is dewy. It used to come in a jar but now it's in a tube, so it's more practical!"
+    },
+    {
+        "id":"5",
+        "name": "Banana Boat Sport SPF 50",
+        "price": "Rp174.000",
+        "image": "./image/ss2.jpg",
+        "description": "Banana Boat Sport SPF 50 is a sunscreen skin care product that contains Vitamin C, Vitamin E, and Sunblock SPF50. The content of Vitamin C and Vitamin E in this product keeps the skin soft and moist, and Sunblock SPF50 provides skin protection from UVA, UVB, and pollution."
+    },
+    {
+        "id":"6",
+        "name": "Biore UV Aqua Rich",
+        "price": "Rp103.000",
+        "image": "./image/ss3.png",
+        "description": "Biore UV Aqua Rich Watery Essence SPF 50 sunblock with refreshing SPF 50PA Aqua Micro Capsule content to protect the skin from harmful UV rays and keep the skin moist all day long. This lotion has a long-lasting fragrance that feels light on the skin and is not sticky and easily absorbed into the skin"
+    },
+    {
+        "id":"7",
+        "name": "Clear White Supreme Overnight Radiances Capsules",
+        "price": "Rp705.000",
+        "image": "./image/s2.jpg",
+        "description": "Brightens dark spots and gives a radiant skin effect. Contains Luxurious Diamond Powder and Powersource of Multi-Nutrients derived from pure nature. The multi-active formula duo is combined with Squalane, Power Hyaluronic Acid, and Vitamin E and is perfected with encapsulation technology to create regenerative skincare that is able to effectively provide maximum potential when applied to the skin."
+    },
+    {
+        "id":"8",
+        "name": "Y.O.U Hydra Rescue B5 Gel Moisturizer",
+        "price": "Rp139.000",
+        "image": "./image/m3.jpg",
+        "description": "Able to balance skin moisture, provide long-lasting hydration, soothe the skin, and maintain skin elasticity, because it is enriched with Panthenol, calendula extract, and hydrolyzed Hyaluronic Acid. Its light gel texture makes this moisturizer easy to absorb and non-greasy. Skin becomes healthier and comfortable to wear before makeup!"
+    },
+    {
+        "id":"9",
+        "name": "Cetaphil UVA/UVB Defence SPF 50+",
+        "price": "Rp320.000",
+        "image": "./image/ss4.jpg",
+        "description": "Cetaphil UVA/UVB Defense SPF 50+ provides moisture and protection from UV rays for the face and entire body. The SPF 50+ content in this product helps protect the skin from sun exposure and maintains skin moisture."
+    },
+    {
+        "id":"10",
+        "name": "Mineral Botanica First Defense Skin Moisture Barrier Water Cream",
+        "price": "Rp60.000",
+        "image": "./image/m4.jpg",
+        "description": "If you know this local brand because of their makeup, try exploring their skincare products more! Enriched with Ceramide to moisturize and maintain the skin barrier, as well as Niacinamide and kojic acid which help reduce dark spots. Makes skin bright and free from dullness! The formula is also light, non-comedogenic. Practical to use and carry anywhere because the packaging is in a tube, more hygienic too!"
+    },
+    {
+        "id":"11",
+        "name": "Extraordinaire Supreme Precious Collagen",
+        "price": "Rp660.000",
+        "image": "./image/s3.jpg",
+        "description": "Special treatment that stimulates skin regeneration for youthful skin. Contains Dynalift™ Technology that provides a fast tightening effect, smoothing rough textures and large pores, as well as Peptides and Advanced Moisture Complex that help tighten the skin and reduce wrinkles."
+    },
+    {
+        "id":"12",
+        "name": "Scarlet Glowtening Serum 15ml",
+        "price": "Rp67.000",
+        "image": "./image/s4.jpg",
+        "description": "Scarlett Glowtening can brighten the face. This serum contains Tranexamide Acid, Niacinamide, Aloe Vera Extract, Allantoin, Licorice Extract, Calendula Oil, Geranium Oil, Olive Oil."
+    },
+    {
+        "id":"13",
+        "name": "Vaseline Daily Sun Cream SPF 50+ SPF/PA++++",
+        "price": "Rp124.000",
+        "image": "./image/ss5.jpg",
+        "description": "Vaseline Daily Sun Cream SPF 50+/PA++++ is a sunscreen with Water-Holding technology that can provide a fresh sensation while moisturizing the skin. It has a light texture, suitable for everyday use. The Vaseline Pet Jelly formula forms a layer that moisturizes and protects the skin from the heat of UV rays."
+    },
+    {
+        "id":"14",
+        "name": "Implora 8+ Ceramide Skin Barrier Moisturizing Gel",
+        "price": "Rp66.000",
+        "image": "./image/m5.png",
+        "description": "The packaging is chic and in the form of a practical and hygienic pump, it doesn't look like a 50 thousand rupiah product, you know! Intended for dry, dull skin, and skin with lots of dark spots, this local moisturizer has the main ingredients of Ceramide, Niacinamide, honey extract, Hyaluronic Acid, and Hydromarine Collagen. Regular use every morning and night will repair damaged skin barriers, making skin smoother, softer, and supple!"
+    },
+    {
+        "id":"15",
+        "name": "Illuminare Brightening Serum 30g",
+        "price": "Rp112.000",
+        "image": "./image/s5.jpg",
+        "description": "Illuminare Brightening Serum is a serum to brighten the face that contains various ingredients, one of which is alpha arbutin. This content is able to nourish the skin to regenerate skin cells."
+    }
+]
